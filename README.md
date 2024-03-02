@@ -11,15 +11,15 @@ An AI system can be used to automatically create notes and highlights for DSS st
 ### Training phase:
 First, we start with only small changes from the current note-taker method.
 
-A note-taker is requested
-A note-taker will take notes
-Notes will be uploaded to a system that AI will have access to
-AI will analyze the video, transcript, and user notes to create supplementary notes for the student who needs it (This can include more detailed documentation, key moments, etc)
-Repeat
+- A note-taker is requested
+- A note-taker will take notes
+- Notes will be uploaded to a system that AI will have access to
+- AI will analyze the video, transcript, and user notes to create supplementary notes for the student who needs it (This can include more detailed documentation, key moments, etc)
+- Repeat
 
 ### Semi-automation:
-AI will not require notes from a volunteer, but will still accept them
-AI will create notes based on its data, and feedback that it receives it (This can include more detailed documentation, key moments, etc)
+- AI will not require notes from a volunteer, but will still accept them
+- I will create notes based on its data, and feedback that it receives it (This can include more detailed documentation, key moments, etc)
 
 
 ### Notes:
