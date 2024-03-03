@@ -34,3 +34,12 @@ First, we start with only small changes from the current note-taker method.
 This will be done through the DSS system to avoid abusers
 This can reduce costs through the current system that the university uses
 Can help both the note-taker and the person who needs it
+
+
+# Setup:
+
+This uses project uses Ollama, and Gemma
+- Install Olama from https://ollama.com/download
+- Run the setup
+- In the terminal run \n `ollama run gemma:2b` to download it
+- TBD
