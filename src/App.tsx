@@ -5,13 +5,12 @@ export default function App() {
   return (
     <>  
       <div>
+      <Main />
         <ul>
           <li><Link to='/'>Landing</Link></li>
           <li><Link to='/Notes'>Notes</Link></li>
           <li><Link to='/Submit'>Submit</Link></li>
-        </ul>
-        <hr />
-        <Main />       
+        </ul> 
       </div>   
     </>
   )

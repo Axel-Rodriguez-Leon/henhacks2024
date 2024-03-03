@@ -1,7 +1,9 @@
+import "../App.css";
+
 const Landing = () => {
     return (
         <div className = "App">
-      <header className=".App-header">
+      <header className="App-header">
                 Better Notes with AI
             </header>
       <p>Notes may not always be available, so AI will proccess lectures
