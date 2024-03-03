@@ -7,7 +7,6 @@ with open('./lecture_transcripts/drPepperLecturewHumanandTranscript.txt', 'r') a
     messages=[
       {
         'role': 'user',
-        
         'content': file.read()
       },
     ],
