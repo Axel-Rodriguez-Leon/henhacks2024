@@ -7,7 +7,15 @@ The UD DSS Student Notetaker has a flaw in that notes are only available as ther
 An AI system can be used to automatically create notes and highlights for DSS students when there is a lack of notetakers.
 
 
-## Implementation: 
+## Implementation:
+
+### Backend:
+Using Google Gemma & Ollama:
+-  It takes in the transcrypt of the lecture and the user's notes to generate a new set of notes
+
+### Frontend:
+
+
 ### Training phase:
 First, we start with only small changes from the current note-taker method.
 
