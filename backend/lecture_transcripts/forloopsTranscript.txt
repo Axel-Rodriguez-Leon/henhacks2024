@@ -1,3 +1,5 @@
+Can you create some notes from the given text:
+
 In Python, a for loop is used to iterate over a sequence (such as a list, tuple, string, or range) or other iterable objects. The basic syntax of a for loop in Python is as follows:
 
 for variable in iterable:

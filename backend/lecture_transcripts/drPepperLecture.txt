@@ -1,3 +1,5 @@
+Can you create some notes from the given text following text:
+
 Dr Pepper is a carbonated soft drink with a unique flavor that has been enjoyed by people around the world for over a century. The exact formula and the process of inventing Dr Pepper have some mystery and controversy, but there is a generally accepted narrative.
 
 The creation of Dr Pepper is often attributed to Charles Alderton, a pharmacist working at Morrison's Old Corner Drug Store in Waco, Texas. Alderton was experimenting with various combinations of flavors to create a new beverage. According to popular accounts, he mixed different fruit syrups with the typical 23 flavors that make up the distinct taste of Dr Pepper.
