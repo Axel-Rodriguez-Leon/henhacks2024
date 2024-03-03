@@ -1,5 +1,5 @@
 import YouTubeVideo from '../YouTubeVideo';
-
+import AIPokemonNotes from '../pokemonNotesw_Transcript.png'
 
 const PokemonNotes = () => {
     return (
@@ -7,17 +7,71 @@ const PokemonNotes = () => {
             <h1>Video</h1>
             <YouTubeVideo videoId="dQw4w9WgXcQ" />
             <h2> Transcript</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                culpa qui officia deserunt mollit anim id est laborum</p>
+            <p>LIn the Pokémon games, the type matchup system is a crucial aspect of battles. Pokémon have one or two types (e.g., Water, Fire, Grass, Electric, etc.), and these types determine the strengths and weaknesses of their attacks against other types. Understanding type matchups is essential for strategic gameplay. Here's a detailed explanation of how the type matchups work:
+
+1. Type Chart:
+
+- Pokémon types are organized into a chart that illustrates the interactions between them. Each type has strengths and weaknesses against other types.
+
+- There are 18 different types, and each type has its own set of resistances and vulnerabilities.
+
+2. Effectiveness Scale:
+
+- Attacks in Pokémon games are classified into different effectiveness levels against specific types. The effectiveness scale includes:
+	- Super Effective: Deals double damage.
+	- Normal: Deals regular damage.
+	- Not Very Effective: Deals half damage.
+	- No Effect: Deals no damage.
+
+3. Super Effective:
+
+- When an attack is super effective against a Pokémon's type, it deals double damage.
+
+- For example, Water-type attacks are super effective against Fire-types, dealing double damage.
+
+4. Not Very Effective:
+
+- When an attack is not very effective against a Pokémon's type, it deals half the regular damage.
+
+- For example, Electric-type attacks are not very effective against Ground-types, dealing half damage.
+
+5. Immunity:
+
+- Some types are immune to certain other types, resulting in attacks having no effect.
+
+- For example, Normal-type attacks have no effect on Ghost-type Pokémon.
+
+6. STAB (Same Type Attack Bonus):
+
+- Pokémon receive a 50% damage bonus when using an attack that matches one of their own types.
+
+- For example, a Water-type Pokémon using a Water-type move receives a STAB bonus.
+
+7. Dual Types:
+
+- Pokémon can have one or two types. Dual-type Pokémon combine the strengths and weaknesses of both types.
+
+- For example, a Pokémon that is both Water and Flying will be quadruply weak to Electric-type moves.
+
+8. Changes in Type Interactions:
+
+- The type matchups may evolve over the generations of Pokémon games. Game developers occasionally adjust the effectiveness of certain types for balancing purposes.
+
+9. Abilities and Moves:
+
+- Some Pokémon abilities and moves can modify type interactions. For instance, the move "Soak" changes the target's type to Water, affecting subsequent type matchups.
+
+10. Strategic Considerations:
+
+- Skilled Pokémon trainers take advantage of type matchups to create effective teams and strategies for battles. Teaming Pokémon with complementary types can provide a significant advantage.
+
+
+Understanding the type matchups is essential for success in Pokémon battles, and it adds a layer of depth and strategy to the gameplay. Players often experiment with different Pokémon combinations to create well-rounded and effective teams.</p>
             <h1> View Notes</h1>
             <h2> Human Notes</h2>
                 Note-Taker did not submit notes or Note-Taker does not exist!
             <h2> AI Notes</h2>
+            <img src={AIPokemonNotes} alt="AI generated notes of a Dr. Pepper History lesson" />
         </div>
         
     )
