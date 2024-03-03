@@ -1,4 +1,6 @@
 import ollama
+from ollama import chat
+
 ollama.pull("gemma")
 #file = open("forloopsTranscript.txt")
 with open('./lecture_transcripts/drPepperLecturewHumanandTranscript.txt', 'r') as file:
@@ -11,4 +13,14 @@ with open('./lecture_transcripts/drPepperLecturewHumanandTranscript.txt', 'r') a
       },
     ],
   )
+print(response['message']['content'])
+
+messages = [
+  {
+    'role': 'user',
+    'content': input("What else would you like me to do?"),
+  },
+]
+
+response = chat('gemma', messages=messages)
 print(response['message']['content'])
